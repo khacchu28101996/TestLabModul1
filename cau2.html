@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau2</title>
+</head>
+<body>
+
+</body>
+<script>
+  let arr = [1,2,3,4,5,6,7,8];
+  let index= parseInt(prompt("Enter Number"));
+  function tryRemoveFromArray(arr){
+    for (let i=0;i<arr.length;i++){
+      if (index >= 0 && index <arr.length){
+       arr.splice(index,1);
+
+      }else
+        console.log(arr);
+      break;
+
+    }return arr;
+
+
+  }console.log(tryRemoveFromArray(arr));
+</script>
+</html>
